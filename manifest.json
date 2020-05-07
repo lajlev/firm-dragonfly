@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Yucata Butler",
+  "version": "0.1",
+  "content_scripts": [
+    {
+    "matches": ["https://www.yucata.de/en/Game/CastlesOfBurgundy/*"],
+    "css": ["styles.css"],
+    "js": ["hotkeys.min.js", "castles-of-burgundy.js"],
+    "run_at": "document_end"
+    }
+  ]
+}
